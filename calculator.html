@@ -12,6 +12,10 @@
 				var num = document.getElementById("n1");
 				num.value = num.value*num.value;
 			}
+			function inverse() {
+				var num = document.getElementById("n1");
+				num.value = 1/num.value;
+			}			
 		</script>
 	</head>
 	<body>
@@ -21,6 +25,7 @@
 		<p>
 			<button onclick="square()"> x^2 </button>
 			<button onclick="cube()"> x^3 </button>
+			<button onclick="inverse()"> 1/x </button>
 		</p>
 	</body>
 </html>
